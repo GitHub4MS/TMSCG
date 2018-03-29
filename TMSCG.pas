@@ -7,7 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, TMSCG_All, TMSCG_License
+  Forms, TMSCG_All
   { you can add units after this };
 
 {$R *.res}

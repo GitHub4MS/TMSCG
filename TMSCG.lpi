@@ -32,7 +32,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="2">
       <Unit0>
         <Filename Value="TMSCG.pas"/>
         <IsPartOfProject Value="True"/>
@@ -45,11 +45,6 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="TMSCG_All"/>
       </Unit1>
-      <Unit2>
-        <Filename Value="tmscg_license.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="TMSCG_License"/>
-      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
