@@ -1,0 +1,46 @@
+object MainForm: TMainForm
+  Left = 108
+  Height = 480
+  Top = 128
+  Width = 640
+  Caption = 'The Most Domb Computer Game'
+  ClientHeight = 480
+  ClientWidth = 640
+  Constraints.MinHeight = 200
+  Constraints.MinWidth = 300
+  OnCloseQuery = CloseQry
+  OnCreate = CreateQry
+  OnMouseEnter = MouseEnterEvent
+  OnMouseLeave = MouseLeaveEvent
+  OnMouseMove = MouseMoveEvent
+  OnResize = ResizeEvent
+  Position = poScreenCenter
+  LCLVersion = '1.8.2.0'
+  object QuitBtn: TButton
+    Left = 303
+    Height = 24
+    Top = 232
+    Width = 50
+    Caption = 'Quit'
+    OnClick = ClickedQuit
+    TabOrder = 1
+    TabStop = False
+  end
+  object BlindBtn: TButton
+    Left = 200
+    Height = 24
+    Top = -30
+    Width = 50
+    Caption = '----'
+    Default = True
+    OnClick = ClickedBlind
+    TabOrder = 0
+    TabStop = False
+  end
+  object Timer: TTimer
+    Interval = 20
+    OnTimer = TimerEvent
+    left = 136
+    top = 24
+  end
+end
